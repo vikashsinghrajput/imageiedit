@@ -1,24 +1,26 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Footer from './component/Footer';
+import Navbar from './component/Navbar';
+import AppCard from './Pages/ecommerce/AppCard';
+import Photoshop from './Pages/ecommerce/Photoshop';
+import Home from './Pages/Home/Home';
+import Toggle360 from './Pages/Home/Toggle360';
+import Scrolll from './Pages/Scrolll';
+import WebApp from './Pages/web development/WebApp';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+ <Navbar/>
+<Home/>
+ <Footer/>
+<zzz/>
+
+
+
+ </>
   );
 }
 
