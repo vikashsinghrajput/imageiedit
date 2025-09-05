@@ -54,15 +54,15 @@ const OurSolutions = () => {
     ),
   };
   return (
-    <div className="max-w-7xl w-full mx-auto px-4 mt-20 py-9">
-      <div className="text-center mb-16 flex">
-      <div className="w-3 h-30 bg-main mr-2" />
-        <h2 className="text-4xl font-bold text-gray-800 mb-4 mt-5">
-        Our Solutions
-        </h2>
+    <div className="max-w-7xl w-full mx-auto px-4  py-9">
+      <div className=" mb-16  grid grid-cols-1 gap-0.5 overflow-hidden sm:grid-cols-2 ">
+<div>        <h1 class="text-2xl md:text-3xl  border-l-4 px-2  font-sans font-bold border-[#d04901] text-main">
+   Our Solutions
+</h1></div>
+
         
         <p className=" text-gray-600 max-w-2xl mx-auto mr-4 text-justify">
-          AutoBG is an AI-powered program trained in the removal and replacement of automotive image backgrounds. Just upload your images and see the magic happen for yourself. Get perfect car images with dealer branding.
+         ImageIEdit  is an Munual Images retoucher program trained in the removal and replacement of automotive image backgrounds. Just upload your images and see the magic happen for yourself. Get perfect car images with dealer branding.
         </p>
       </div>
       <div className="relative">

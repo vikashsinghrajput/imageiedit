@@ -3,20 +3,20 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter, HashRouter } from 'react-router-dom';
 
 import 'lightbox.js-react/dist/index.css'
+import Navbar from './component/Navbar';
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('root'));// eslint-disable-line
 root.render(
-  <React.StrictMode>
-     
-      <BrowserRouter>
+<React.StrictMode>
+    <BrowserRouter>
+    
     <App />
     </BrowserRouter>
- 
   </React.StrictMode>
 );
 

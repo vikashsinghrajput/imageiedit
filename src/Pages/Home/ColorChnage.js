@@ -2,16 +2,17 @@ import React, { useRef, useState } from 'react'
 import Blackcar from '../../Asstes/360/Black.jpg'
 import Bulecar from '../../Asstes/360/Blue.jpg'
 import greencar from '../../Asstes/360/green.jpg'
-import LightYellowcar from '../../Asstes/360/LightYellow.jpg'
-import pinkcar from '../../Asstes/360/Pink.jpg'
+import car from '../../Asstes/360/car.png'
+import turck from '../../Asstes/360/turck.png'
 import Redcar from '../../Asstes/360/Red.jpg'
-import yellowcar from '../../Asstes/360/Yellow.jpg'
+import Bike from '../../Asstes/360/Bike.png'
 import { Range } from "react-range";
 
 
 const ColorChnage = () => {
     const inputRef = useRef(null);
   const [carcolor ,setCarcolor] = useState(false)
+
   
 
   const imgChangeHandler =()=>{
@@ -30,113 +31,78 @@ const ColorChnage = () => {
    
 
   const ChnageColorGreen=()=>{
-    setCarcolor([
-      LightYellowcar
+      setCarcolor(!carcolor);
 
+    setCarcolor([
+      car
+
+    ])
+  }
+    const handleBike=()=>{
+      setCarcolor(!carcolor);
+    setCarcolor([
+    Bike
+    ])
+  }
+   const handleTurck=()=>{
+      setCarcolor(!carcolor);
+    setCarcolor([
+    turck
     ])
   }
 
   return (
-
+    <>
 <div className="p-2  px-4 mx-auto max-w-7xl sm:px-6 lg:px-8  lg:py-10">
 
 <div className=''>
    
 
 {
-  carcolor ? <img src={!carcolor ? Bulecar : Redcar  }/> : <img src={Blackcar} alt="" className='rounded-xl' />
+  carcolor ? <img src={!carcolor ? Bulecar : carcolor  }/> : <img src={Blackcar} alt="" className='rounded-xl' />
 }
 
 </div>
-<h1 className='text-sm text-gray-500'>Drag to interact</h1>
-
-<div className="flex justify-center mt-12 space-x-3">
-          <button  onClick={()=>{ChnageColorGreen(!carcolor)}} className="indicator-dot w-3 h-3 rounded-full bg-gray-300 transition-all duration-300 active-dot" />
-          <button className="indicator-dot w-3 h-3 rounded-full bg-gray-300 transition-all duration-300" />
-          <button className="indicator-dot w-3 h-3 rounded-full bg-gray-300 transition-all duration-300" />
-          <button className="indicator-dot w-3 h-3 rounded-full bg-gray-300 transition-all duration-300" />
-        </div>
-  <div className="w-50 flex justify-between text-xs px-2 mt-5  ">
 
 
-  <span>|</span>
-  <span >|</span>
-  <span >|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
-  <span>|</span>
+
+ 
+
+
+<div className="w-full max-w-8xl  mt-10  ">
+  {/* Category Labels */}
+  <div className="flex justify-around text-gray-700 text-sm mb-2">
+    <span className='cursor-pointer'
+   onClick={ChnageColorGreen}>
+
+     Passenger vehicles</span>
+    <span className='cursor-pointer' onClick={handleBike}>Electric vehicles</span>
+    <span className='cursor-pointer' onClick={handleTurck}>Commercial vehicles</span>
+    <span className='cursor-pointer'>Luxury vehicles</span>
+  </div>
+  {/* Track */}
+  <div className="relative">
+    <div className="h-4  max-w-7xl bg-blue-100 rounded" />
+    {/* Active Selection */}
+    <div className={`absolute top-0  h-4 w-1/4 bg-blue-900 rounded  ${carcolor ? 'active' :''}`}
+    style={{ color:carcolor ?'red':'blue', backgroundColor:carcolor ?'blue':'black',}}
+     >
+
+
+    </div>
+  </div>
+</div>
+  
   </div>
   
-  <input
-    type="range"
-
-onChange= {()=>{imgChangeHandler  ()}}
+    </>
 
 
-    
-    className="h-1 border-dashed  w-full cursor-ew-resize appearance-none rounded-full bg-gray-200 disabled:cursor-not-allowed"
-   
-  />
+  
+ 
+  
 
-</div>
+
 
 
   )

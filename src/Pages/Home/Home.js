@@ -1,12 +1,6 @@
 import React, { useState } from 'react'
 import mp4 from '../../Asstes/Bg.mp4'
-import CardOne from './CardOne'
-import CardTwo from './CardTwo'
-import CardThree from './CardThree'
-import Contact from '../Contact'
-import CardFour from './CardFour'
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
-import icons360 from '../../Asstes/Icons/360-degrees_4560322.png'
 import Raw from '../../Asstes/HomeImg/Raw.jpg'
 import png from '../../Asstes/HomeImg/png.jpg'
 import carSdudio from '../../Asstes/HomeImg/carSdudio.jpg'
@@ -15,30 +9,18 @@ import { TbView360Number } from "react-icons/tb";
 import Toggle360 from './Toggle360'
 import ColorChnage from './ColorChnage'
 import OurSolutions from './OurSolutions'
+import Timer from './Timer'
+import Work from './Work'
+import HowDoWork from './HowDoWork'
+import OurSulction from './OurSulction'
+import Faq from './Faq'
+import Try from '../../component/TryYourself/Try'
+import Test from '../../component/TryYourself/Test'
+
+
 const Home = () => {
-// const  buttonInfo =[
-//   {
-//     id:1,
-//     title:"Raw Image	",
-//     img1:''
-//   },
-//   {
-//     id:2,
-//     title:"Complete Cut	",
+ 
 
-//   },
-//   {
-//     id:3,
-//     title:"Car Studio",
-
-//   },
-//   {
-//     id:4,
-//     title:"Try for Free!",
-//     iocn:<MdOutlineKeyboardDoubleArrowRight className='ml-1 text-main font-semibold text-xl' />
-//   }
-  
-// ]
 const [showmodle, setShowmodle] = useState(false)
 
    const [isAgeValid,setisAgeValid]=useState(false)
@@ -196,12 +178,20 @@ and graphic design requirements. Uplift your brand's perception through our unma
     </div>
   </section>
 </div>
-<CardFour/>
+<Timer/>
 <OurSolutions/>
 <ColorChnage/>
-<CardOne/>
-{/* <CardThree/> */}
-<Contact/>
+<HowDoWork/>
+<OurSulction/>
+<Work/>
+<Try/>
+<Faq/>
+<Test/>
+
+
+
+
+
     </>
   )
 }
