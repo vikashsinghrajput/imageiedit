@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/imageiedit/static/css/main.7bbf8c01.css",
-    "main.js": "/imageiedit/static/js/main.fb568b1e.js",
+    "main.css": "/imageiedit/static/css/main.6e89ce30.css",
+    "main.js": "/imageiedit/static/js/main.9ec33295.js",
     "static/js/453.ce06eb32.chunk.js": "/imageiedit/static/js/453.ce06eb32.chunk.js",
     "static/media/add shadow.png": "/imageiedit/static/media/add shadow.fbc3161d2084ca408923.png",
     "static/media/cliping Windos.png": "/imageiedit/static/media/cliping Windos.947c53f455063035ef4d.png",
@@ -18,7 +18,7 @@
     "static/media/make_Nc.jpg": "/imageiedit/static/media/make_Nc.ff3625e2c0bb0bdecba0.jpg",
     "static/media/add bacdrop.jpg": "/imageiedit/static/media/add bacdrop.326973af374abb6974ea.jpg",
     "static/media/RearFront.png": "/imageiedit/static/media/RearFront.4c66c86b03aea4e92870.png",
-    "static/media/raw.jpg": "/imageiedit/static/media/raw.f3066f53ce64f02249ce.jpg",
+    "static/media/raw.jpg": "/imageiedit/static/media/raw.8f4767a70162d378bc03.jpg",
     "static/media/Rear.png": "/imageiedit/static/media/Rear.5ce85594f90fd3e18e50.png",
     "static/media/Demo.png": "/imageiedit/static/media/Demo.73171242a9f8dc2f3700.png",
     "static/media/turck.png": "/imageiedit/static/media/turck.e2cce610e1b4d80f8f2b.png",
@@ -38,7 +38,6 @@
     "static/media/Realistic_Shadow.jpg": "/imageiedit/static/media/Realistic_Shadow.39412657ae511e7fa8f2.jpg",
     "static/media/Addplate.jpg": "/imageiedit/static/media/Addplate.2f983dd855ce14791434.jpg",
     "static/media/carSdudio.jpg": "/imageiedit/static/media/carSdudio.70283c45a175aea577a6.jpg",
-    "static/media/hero-done.jpg": "/imageiedit/static/media/hero-done.394c281cf9d2f55e37b9.jpg",
     "static/media/_plate.png": "/imageiedit/static/media/_plate.67fd7253f618e3ed667e.png",
     "static/media/_plate-js.png": "/imageiedit/static/media/_plate-js.dd43c11fb49f8bacdcb9.png",
     "static/media/tractor.png": "/imageiedit/static/media/tractor.1cd99afd3a894b20c7b6.png",
@@ -49,12 +48,12 @@
     "static/media/van_7455926.png": "/imageiedit/static/media/van_7455926.b0d4b055beec19815589.png",
     "static/media/car-door_8359146.png": "/imageiedit/static/media/car-door_8359146.e0e93edd582814b96c56.png",
     "index.html": "/imageiedit/index.html",
-    "main.7bbf8c01.css.map": "/imageiedit/static/css/main.7bbf8c01.css.map",
-    "main.fb568b1e.js.map": "/imageiedit/static/js/main.fb568b1e.js.map",
+    "main.6e89ce30.css.map": "/imageiedit/static/css/main.6e89ce30.css.map",
+    "main.9ec33295.js.map": "/imageiedit/static/js/main.9ec33295.js.map",
     "453.ce06eb32.chunk.js.map": "/imageiedit/static/js/453.ce06eb32.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7bbf8c01.css",
-    "static/js/main.fb568b1e.js"
+    "static/css/main.6e89ce30.css",
+    "static/js/main.9ec33295.js"
   ]
 }
