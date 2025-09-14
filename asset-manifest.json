@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/imageiedit/static/css/main.7bbf8c01.css",
-    "main.js": "/imageiedit/static/js/main.5dd7a90e.js",
+    "main.js": "/imageiedit/static/js/main.fb568b1e.js",
     "static/js/453.ce06eb32.chunk.js": "/imageiedit/static/js/453.ce06eb32.chunk.js",
     "static/media/add shadow.png": "/imageiedit/static/media/add shadow.fbc3161d2084ca408923.png",
     "static/media/cliping Windos.png": "/imageiedit/static/media/cliping Windos.947c53f455063035ef4d.png",
@@ -50,11 +50,11 @@
     "static/media/car-door_8359146.png": "/imageiedit/static/media/car-door_8359146.e0e93edd582814b96c56.png",
     "index.html": "/imageiedit/index.html",
     "main.7bbf8c01.css.map": "/imageiedit/static/css/main.7bbf8c01.css.map",
-    "main.5dd7a90e.js.map": "/imageiedit/static/js/main.5dd7a90e.js.map",
+    "main.fb568b1e.js.map": "/imageiedit/static/js/main.fb568b1e.js.map",
     "453.ce06eb32.chunk.js.map": "/imageiedit/static/js/453.ce06eb32.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bbf8c01.css",
-    "static/js/main.5dd7a90e.js"
+    "static/js/main.fb568b1e.js"
   ]
 }
